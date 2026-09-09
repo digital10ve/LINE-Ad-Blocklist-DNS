@@ -1,1 +1,51 @@
+! Title: Google App Aggressive DNS Ad Block for iOS
+! Description: Googleアプリ、Chrome、Discover、ニュースアプリ内の第三者Google広告・計測をDNSで強めに遮断する。
+! Last modified: 2026-09-09
+! Important:
+! - AdGuard Proの「DNSフィルタリング」用。Safari用ユーザールールには入れない。
+! - DNSルールはGoogleアプリだけでなく、端末上の全アプリ／全ブラウザに作用する。
+! - google.com / www.google.com / googleapis.com / gstatic.com は絶対にブロックしない。
+!   Google検索・Discover本体・Googleログイン・地図・画像・YouTube等を壊すため。
+! - Google検索広告、Discoverの一部スポンサー枠、YouTube動画広告など、
+!   正規コンテンツと同じGoogleドメインから配信される広告はDNS単独では除去できない。
+!
+! =========================================================
+! 1. Google広告配信：有効化推奨
+! =========================================================
+||pagead2.googlesyndication.com^
+||afs.googlesyndication.com^
+||tpc.googlesyndication.com^
+||googlesyndication.com^
+||googleads.g.doubleclick.net^
+||securepubads.g.doubleclick.net^
+||ad.doubleclick.net^
+||pagead46.l.doubleclick.net^
+||partnerad.l.doubleclick.net^
+||adclick.g.doubleclick.net^
+
+! =========================================================
+! 2. Google広告クリック計測・コンバージョン：有効化推奨
+! =========================================================
+||googleadservices.com^
+||www.googleadservices.com^
+||cm.g.doubleclick.net^
+||fls.doubleclick.net^
+||stats.g.doubleclick.net^
+
+! =========================================================
+! 3. Google系アプリ広告SDK：有効化推奨
+! =========================================================
+||admob.com^
+||ads.admob.com^
+||googlemobileadssdk.googleapis.com^
+
+! =========================================================
+! 4. 任意：横断計測をさらに抑える（副作用を確認して有効化）
+! =========================================================
+! ||google-analytics.com^
+! ||ssl.google-analytics.com^
+! ||analytics.google.com^
+! ||analytics.googleapis.com^
+!
+! End
 
