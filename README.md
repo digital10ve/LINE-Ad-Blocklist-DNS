@@ -1,0 +1,1 @@
+# LINE-Ad-Blocklist-DNS
