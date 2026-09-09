@@ -1,0 +1,43 @@
+! Title: LINE-Ad-BlockList (Ultimate Edition)
+! Homepage: https://github.com/minimal-enginner/LINE-Ad-BlockList
+! Description: Advanced blocklist for LINE ads and tracking on iOS AdGuard
+! Lastupdate: 2026-09-09
+!
+
+! =========================================================
+! 1. LINE Display Ads & SSP (LINE社 直配信・SSP広告)
+! =========================================================
+||ad.line-scdn.net^
+||ads-obs.line-scdn.net^
+||ads.line.me^
+||ad-center.line.me^
+||ssp.line.me^
+||ssp-app.line.me^
+||d.line-scdn.net^
+
+! =========================================================
+! 2. Yahoo! JAPAN Integrated Ads (ヤフー統合ネットワーク広告)
+! =========================================================
+||im.c.yimg.jp^
+||yast.yahoo.co.jp^
+||ads.yahoo.co.jp^
+||s.yimg.jp/images/ds/yads/^
+||b92.yahoo.co.jp^
+
+! =========================================================
+! 3. LINE VOOM, News & Native In-Feed Ads (インフィード広告)
+! =========================================================
+||voom-assets.line-scdn.net^
+||voom-obs.line-scdn.net^
+||ch-news.line-apps.com^
+||news-ads.line-apps.com^
+
+! =========================================================
+! 4. Telemetry, Tracking & Analytics (行動トラッキング・解析)
+! =========================================================
+||crs-event.line.me^
+||crs-hometab-event.line.me^
+||cl.line-scdn.net^
+||tr.line.me^
+||log.line.me^
+||target-ad.line.me^
