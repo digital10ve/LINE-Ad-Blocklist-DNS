@@ -1,1 +1,93 @@
+! Title: My Custom DNS Filter v2 - Chrome / In-App Aggressive
+! Description: Chrome on iOS and in-app browser traffic. DNS-only; blocks hostnames device-wide.
+! Last modified: 2026-09-10
+! Source: My_Safari_Custom_Filter_v4.txt plus supplementary third-party ad/affiliate/tracking hosts.
+! IMPORTANT: This file cannot hide page elements. It blocks network hosts only.
+! IMPORTANT: Do not block google.com, googleapis.com, gstatic.com, or googleusercontent.com.
+! IMPORTANT: If used with HaGeZi Pro++, many rules are intentionally duplicated; use this only if you want explicit local control.
+!
+! =========================================================
+! Core ads, affiliate, and tracking extracted from Safari v4
+! =========================================================
+||pagead2.googlesyndication.com^
+||googleads.g.doubleclick.net^
+||securepubads.g.doubleclick.net^
+||adservice.google.com^
+||adservice.google.co.jp^
+||tpc.googlesyndication.com^
+||fundingchoicesmessages.google.com^
+||amazon-adsystem.com^
+||aax.amazon-adsystem.com^
+||c.amazon-adsystem.com^
+||ads.yahoo.co.jp^
+||yads.yahoo.co.jp^
+||ad.jp.ap.valuecommerce.com^
+||ck.jp.ap.valuecommerce.com^
+||px.a8.net^
+||hbb.afl.rakuten.co.jp^
+||hb.afl.rakuten.co.jp^
 
+! =========================================================
+! Supplemental third-party advertising platforms
+! =========================================================
+||adnxs.com^
+||adsrvr.org^
+||advertising.com^
+||casalemedia.com^
+||criteo.com^
+||criteo.net^
+||demdex.net^
+||doubleverify.com^
+||everesttech.net^
+||moatads.com^
+||openx.net^
+||pubmatic.com^
+||quantserve.com^
+||rubiconproject.com^
+||scorecardresearch.com^
+||serving-sys.com^
+||smartadserver.com^
+||taboola.com^
+||teads.tv^
+||thetradedesk.com^
+||3lift.com^
+||bidswitch.net^
+||btloader.com^
+||contextweb.com^
+||districtm.io^
+||lijit.com^
+||mgid.com^
+||outbrain.com^
+||revcontent.com^
+||sharethrough.com^
+||smaato.net^
+||spotxchange.com^
+||yieldmo.com^
+||zedo.com^
+
+! =========================================================
+! Affiliate and referral tracking
+! =========================================================
+||impact.com^
+||impactradius.com^
+||linksynergy.com^
+||redirectingat.com^
+||skimresources.com^
+||skimlinks.com^
+||rstyle.me^
+||anrdoezrs.net^
+||jdoqocy.com^
+||kqzyfj.com^
+||qksrv.net^
+
+! =========================================================
+! Cross-site analytics and tag-based tracking (optional if sites break)
+! =========================================================
+||google-analytics.com^
+||ssl.google-analytics.com^
+||analytics.google.com^
+||analytics.twitter.com^
+||bat.bing.com^
+||connect.facebook.net^
+||pixel.facebook.com^
+||static.ads-twitter.com^
